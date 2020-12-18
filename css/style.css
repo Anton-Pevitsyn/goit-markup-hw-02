@@ -1,0 +1,38 @@
+:root {
+
+}
+    /* 
+    цвет оснвного текста + адрес #757575;
+    цвет текста хедар #212121;
+    цвет h1 #FFFFFF;
+    цвет заголовков #212121;
+    цвет акцент #2196F3;
+    
+     
+    */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+.site-nav a {
+    color:#212121;
+}
+
+.site-nav .nav-link:hover,
+.site-nav .nav-link:focus {
+    color: #2196F3;
+}
+
+.contacts a {
+   color: #757575;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+color: #2196F3;
+}
