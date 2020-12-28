@@ -18,7 +18,7 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-a {
+.link {
   font-style: normal;
   text-decoration: none;
 }
@@ -36,7 +36,7 @@ a {
 .logo {
   color: var(--accent-color);
 }
-.site-nav a {
+.site-nav .link {
   color: var(--header-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -49,7 +49,7 @@ a {
   color: var(--accent-color);
 }
 
-.contacts a {
+.contacts .link {
   color: var(--main-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -78,7 +78,7 @@ a {
   letter-spacing: 0.06em;
 }
 
-.title-section a {
+.title-section .link {
   color: var(--main-title-color);
   background-color: var(--accent-color);
   font-weight: 700;
@@ -95,7 +95,7 @@ a {
   font-size: 14px;
   line-height: 24px;
 }
-.about-us-section h3 {
+.about-us-section .item-title {
   color: var(--title-color);
   font-weight: 700;
   font-size: 14px;
@@ -109,6 +109,8 @@ a {
 /*specialization section style */
 .specialization-section {
   background-color: var(--ferst-background-color);
+}
+.specialization-section .section-title {
   color: var(--title-color);
   font-weight: 700;
   font-size: 24px;
@@ -123,19 +125,19 @@ a {
   background-color: var(--second-background-color);
   color: var(--main-text-color);
 }
-.team-section h2 {
+.team-section .section-title {
   color: var(--title-color);
   font-weight: 700;
   font-size: 24px;
   line-height: 42px;
 }
-.team-section h4 {
+.team-section .item-title {
   color: var(--title-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
 }
-.team-section p {
+.team-section .item-text {
   color: var(--main-text-color);
   font-weight: 400;
   font-size: 16px;
@@ -164,7 +166,8 @@ a {
   font-size: 16px;
   line-height: 30px;
 }
-.portfolio-card h2 {
+.portfolio-card .card-title {
+  color: var(--title-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
@@ -175,7 +178,7 @@ a {
 footer {
   background-color: #2f303a;
 }
-footer > a {
+footer > .link {
   color: #ffffff;
 }
 .footer-address {
